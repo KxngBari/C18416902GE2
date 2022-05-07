@@ -21,6 +21,9 @@ public class Boid : MonoBehaviour
 
     public Transform path;
 
+    public bool fixShip;
+    public bool fixCamera;
+
     public void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
@@ -41,7 +44,10 @@ public class Boid : MonoBehaviour
 
         foreach (SteeringBehaviour b in behaviours)
         {
-            this.behaviours.Add(b);
+            if (b.isActiveAndEnabled)
+            {
+                this.behaviours.Add(b);
+            }
         }
     }
 
@@ -102,13 +108,26 @@ public class Boid : MonoBehaviour
     void Update()
     {
         force = Calculate();
-        acceleration = force / mass;
+        Vector3 newAcceleration = force / mass;
+        acceleration = Vector3.Lerp(acceleration, newAcceleration, Time.deltaTime);
         velocity += acceleration * Time.deltaTime;
 
         velocity = Vector3.ClampMagnitude(velocity, maxSpeed);
 
-        if (velocity.magnitude > 0)
+        if (velocity.magnitude > float.Epsilon)
         {
+            Vector3 tempUp = Vector3.Lerp(transform.up, Vector3.up + (acceleration * banking), Time.deltaTime * 3.0f);
+            transform.LookAt(transform.position + velocity, tempUp);
+
+            if (fixShip == true)
+            {
+                transform.rotation *= Quaternion.FromToRotation(Vector3.left, Vector3.forward);
+            }
+
+            if (fixCamera == true)
+            {
+                transform.rotation *= Quaternion.FromToRotation(Vector3.right, Vector3.forward);
+            }
 
             transform.position += velocity * Time.deltaTime;
             velocity *= (1.0f - (damping * Time.deltaTime));

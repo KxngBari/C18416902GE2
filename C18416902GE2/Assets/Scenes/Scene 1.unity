@@ -317,6 +317,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &406050187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -612,6 +614,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &508967163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -842,6 +846,8 @@ MonoBehaviour:
   maxSpeed: 4.5
   maxForce: 3
   path: {fileID: 0}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &570128948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1031,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &585171112 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1c00f66da0ebaca49b20490a04f7f27c, type: 3}
@@ -1335,6 +1343,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &806505917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1488,6 +1498,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &824684099 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 246e8956cebfeba48a0a7c1cc831541e, type: 3}
@@ -1536,6 +1548,8 @@ MonoBehaviour:
   maxSpeed: 3
   maxForce: 3
   path: {fileID: 0}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,6 +1820,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &999781498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1959,6 +1975,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &1029419058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2125,8 @@ MonoBehaviour:
   maxSpeed: 3
   maxForce: 3
   path: {fileID: 0}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &1060357908
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints: []
   next: 0
-  looped: 0
+  looped: 1
 --- !u!1001 &1083182481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2307,6 +2327,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &1140607505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 246e8956cebfeba48a0a7c1cc831541e, type: 3}
@@ -2355,6 +2377,8 @@ MonoBehaviour:
   maxSpeed: 3
   maxForce: 3
   path: {fileID: 0}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &1184882390
 GameObject:
   m_ObjectHideFlags: 0
@@ -2716,6 +2740,8 @@ MonoBehaviour:
   maxSpeed: 3
   maxForce: 3
   path: {fileID: 0}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &1333677214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2794,6 +2820,8 @@ MonoBehaviour:
   maxSpeed: 3
   maxForce: 3
   path: {fileID: 0}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &1531069076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2947,6 +2975,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1 &1538515819
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,6 +3172,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &1661343765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3536,6 +3568,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &1954639935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3762,6 +3796,8 @@ MonoBehaviour:
   maxSpeed: 8
   maxForce: 13
   path: {fileID: 1060357909}
+  fixShip: 1
+  fixCamera: 0
 --- !u!1001 &2002961510
 PrefabInstance:
   m_ObjectHideFlags: 0
