@@ -28,7 +28,6 @@ public class CameraMovement : MonoBehaviour
         if (!constantMove)
         {
             transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, to, Time.deltaTime * 0.30f);
-            //transform.Rotate(0, -0.25f, cameraSpeedZ * Time.deltaTime);
         }
     }
 

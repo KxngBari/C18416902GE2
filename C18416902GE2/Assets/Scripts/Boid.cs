@@ -19,6 +19,8 @@ public class Boid : MonoBehaviour
     public float maxSpeed = 5.0f;
     public float maxForce = 10.0f;
 
+    public Transform path;
+
     public void OnDrawGizmos()
     {
         Gizmos.color = Color.magenta;
@@ -107,6 +109,7 @@ public class Boid : MonoBehaviour
 
         if (velocity.magnitude > 0)
         {
+
             transform.position += velocity * Time.deltaTime;
             velocity *= (1.0f - (damping * Time.deltaTime));
         }
