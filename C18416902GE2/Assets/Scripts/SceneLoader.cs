@@ -6,11 +6,15 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public Animator transition;
+    public bool inScene1;
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(LoadNextScene());
+        if (inScene1)
+        {
+            StartCoroutine(LoadNextScene());
+        }
     }
 
     // Update is called once per frame

@@ -11,7 +11,7 @@ public class FollowShip : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        offset = new Vector3(2, 2, -2);
+        offset = new Vector3(4, 4, -6);
     }
 
     // Update is called once per frame
