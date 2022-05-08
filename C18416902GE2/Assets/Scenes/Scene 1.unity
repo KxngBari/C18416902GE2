@@ -719,6 +719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7737c425fdc18664ba2532cbeeee9139, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6810720393482749899, guid: 7737c425fdc18664ba2532cbeeee9139, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3954,6 +3958,10 @@ PrefabInstance:
     - target: {fileID: 2563590024752830820, guid: 183409f5186134246b8b58756a9e72b6, type: 3}
       propertyPath: m_Name
       value: SceneManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563590024752830821, guid: 183409f5186134246b8b58756a9e72b6, type: 3}
+      propertyPath: inScene1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2563590024752830842, guid: 183409f5186134246b8b58756a9e72b6, type: 3}
       propertyPath: m_RootOrder
